@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#graph svg {
+  border: 1px solid black;
+  padding: 5px;
+  background: oldlace;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+#tooltip p {
+  font-size: 15px;
+  padding: 0;
+  line-height: 5px;
+}
+
+.dot {
+  stroke: black;
+}
